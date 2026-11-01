@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-29T16:53:10.215Z",
+  "url": "https://labrelay.appwrite.network",
+  "deploymentId": "6ae33994c83334191154",
+  "domainVerified": true,
+  "platformRegistered": true,
+  "httpsStatus": 200,
+  "indexMatchesBuild": true,
+  "assets": [
+    {
+      "path": "sw.js",
+      "sha256": "5104e86fa10d52828e32e6f5d188d201c35b1f4f6baf38ee6b4a71d6094175be"
+    },
+    {
+      "path": "assets/index-C5IFEkfF.css",
+      "sha256": "90cb7d76f2b4783afa1cf6a9b4b55bd5ebcbf0a59f39a4c7eb1058039503ff7a"
+    },
+    {
+      "path": "assets/index-DP6WiknI.js",
+      "sha256": "7a824e9a765465ab576c9ff77bd65efa5ead607ccb40998c2e2fc420aafc0a69"
+    }
+  ],
+  "credentialScanPassed": true
+}

@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-28T15:57:13.246Z",
+  "orgId": "lrdemo_org",
+  "users": [
+    {
+      "id": "lrdemo_collector",
+      "role": "collector"
+    },
+    {
+      "id": "lrdemo_courier_0",
+      "role": "courier"
+    },
+    {
+      "id": "lrdemo_receiver",
+      "role": "receiver"
+    }
+  ],
+  "passwordSignInVerified": true,
+  "seededSamples": 3,
+  "credentialFile": ".local/demo-accounts.json",
+  "secretsIncludedInReport": false
+}

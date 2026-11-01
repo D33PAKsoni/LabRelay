@@ -1,0 +1,31 @@
+LABRELAY — CORE WALKTHROUGH NARRATION
+Use alongside VIDEO_WALKTHROUGH.md. Pause during clicks and role changes.
+
+1. INTRODUCTION
+This is LabRelay, a prototype for accountable water-sample handoffs from the field to a laboratory. The question is simple: who last confirmed possession of each bottle? I'll follow two fictional samples through collection, transport and laboratory check-in, including a bottle that arrives late.
+
+2. COLLECTOR REGISTRATION
+As the collector, I register each bottle with a physical-label ID, a collection site and a shared batch. These are two separate samples travelling together. Registration records collection; it does not imply a handoff. The collector is still the confirmed custodian.
+
+3. COURIER RESERVATION
+The courier claims the pickup to reserve the work. The status becomes Pickup assigned, but the collector remains the confirmed custodian. Planning a collection is different from physically taking possession.
+
+4. COLLECTOR OFFER
+The courier has arrived, so the collector offers each sample to Courier 01. An offer is still not a completed transfer. The collector remains the confirmed custodian until the intended courier accepts possession after checking the physical label and seal.
+
+5. COURIER ACCEPTANCE AND LAB OFFER
+After checking the bottle and taking possession, the courier accepts the offered handoff. Now confirmed custody changes to Courier 01 and the sample is in transit. The courier then offers both bottles to the lab. That new offer leaves custody with the courier until the laboratory acknowledges receipt.
+
+6. PARTIAL DELIVERY
+At the lab, I use Receive batch to compare the delivery with samples currently offered to me. Only A arrived. I deliberately scan A twice and include an unexpected label. The comparison flags one match, one missing bottle, one unexpected ID and one repeated ID.
+
+Saving accepts A once. B stays with Courier 01 in the confirmed record, and the discrepancy is preserved. The unexpected label does not create or receive another sample. This report captures what happened at this check-in.
+
+7. LATER ARRIVAL
+B arrives later. I start another batch check-in, load a fresh manifest and scan B. This records a second receipt and transfers B to the lab. I am using a new batch check-in here, rather than the individual acceptance button, so the later delivery has its own receipt.
+
+8. HISTORY AND THE EARLIER REPORT
+The original receipt still shows B missing with Courier 01. That is the earlier snapshot, not B's current holder. The custody history shows the later batch acceptance, and the current custodian is now the laboratory receiver. The new arrival adds to the trail instead of rewriting the first report.
+
+9. APPWRITE AND CLOSING
+LabRelay uses Appwrite for sign-in, TablesDB records, an authenticated Function for membership and custody checks, authorized Realtime refreshes, and Sites hosting. The demo shows assignment versus possession, a two-sided custody transfer, and partial deliveries with preserved receipt history. This is a fictional prototype demonstration; feedback from people doing collection and laboratory receiving is still the next validation step.

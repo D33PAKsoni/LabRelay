@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-28T16:12:29.201Z",
+  "projectId": "6ae20a1500011bd3e5da",
+  "databaseId": "labrelay_spike",
+  "function": {
+    "id": "labrelay_api",
+    "deploymentId": "6ae21acdef546b310de0",
+    "runtime": "node-22",
+    "execute": [
+      "users"
+    ],
+    "scopes": [
+      "rows.read",
+      "rows.write"
+    ]
+  },
+  "unitTests": 24,
+  "reports": {
+    "diagnosticBrowser": 4,
+    "productBrowser": 6,
+    "cloudBrowser": 1,
+    "productCloud": 4,
+    "hostedFunction": 4
+  },
+  "totalCurrentChecks": 43,
+  "checkedTestUsers": 16,
+  "remainingTestSessions": 0,
+  "frontendDeployment": "Local production build; public frontend hosting is subsequent work.",
+  "functionArchiveSha256": "90e01ede6275e50f081576cc6f091cb43990dc5b840d351190a0094914243b4b"
+}

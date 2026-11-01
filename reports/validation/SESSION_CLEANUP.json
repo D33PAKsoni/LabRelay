@@ -1,0 +1,73 @@
+{
+  "verifiedAt": "2026-10-29T18:05:04.234Z",
+  "purpose": "Read-only audit after owner walkthrough sign-out",
+  "accountsChecked": 16,
+  "remainingFictionalSessions": 0,
+  "accounts": [
+    {
+      "userId": "lrtest_collector",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_receiver",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_0",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_1",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_2",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_3",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_4",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_5",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_6",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_7",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_8",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_courier_9",
+      "sessions": 0
+    },
+    {
+      "userId": "lrtest_outsider",
+      "sessions": 0
+    },
+    {
+      "userId": "lrdemo_collector",
+      "sessions": 0
+    },
+    {
+      "userId": "lrdemo_courier_0",
+      "sessions": 0
+    },
+    {
+      "userId": "lrdemo_receiver",
+      "sessions": 0
+    }
+  ],
+  "rawSessionDetailsStored": false
+}

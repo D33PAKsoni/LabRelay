@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "NodeNext", "moduleResolution": "NodeNext",
+    "lib": ["ES2022", "DOM"], "strict": true, "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true, "esModuleInterop": true, "skipLibCheck": true,
+    "rootDir": ".", "outDir": "dist", "declaration": true, "sourceMap": true
+  },
+  "include": ["src/**/*.ts", "scripts/**/*.ts", "tests/unit/**/*.ts", "tests/browser/harness.ts"],
+  "exclude": ["node_modules", "dist"]
+}

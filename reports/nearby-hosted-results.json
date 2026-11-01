@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-28T20:04:01.943Z",
+  "scope": "Deployed Appwrite Function with real JWTs and spatial queries.",
+  "results": [
+    {
+      "check": "real meter-based spatial query includes the nearby site and excludes distant and foreign sites",
+      "status": "pass"
+    },
+    {
+      "check": "radius changes are honored and all active roles can query their own sites",
+      "status": "pass"
+    },
+    {
+      "check": "foreign and missing origins are indistinguishable and organization spoofing is rejected",
+      "status": "pass"
+    },
+    {
+      "check": "invalid radius and anonymous execution remain closed",
+      "status": "pass"
+    }
+  ]
+}

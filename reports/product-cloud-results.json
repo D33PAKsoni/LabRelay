@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-28T20:06:12.398Z",
+  "scope": "Locally invoked product handler against real Appwrite Auth and TablesDB.",
+  "sampleId": "lr_product_65b289831efa",
+  "results": [
+    {
+      "check": "workspace reads resolve membership and isolate organizations",
+      "status": "pass"
+    },
+    {
+      "check": "registration is collector-only and retries return one initial event",
+      "status": "pass"
+    },
+    {
+      "check": "product routes complete both handoffs and return a six-event custody history",
+      "status": "pass"
+    },
+    {
+      "check": "read routes require authentication and unknown routes stay closed",
+      "status": "pass"
+    }
+  ]
+}

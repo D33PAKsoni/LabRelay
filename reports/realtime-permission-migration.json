@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-28T19:31:05.641Z",
+  "projectId": "6ae20a1500011bd3e5da",
+  "databaseId": "labrelay_spike",
+  "scope": "Removed direct browser access to business records; application data unchanged.",
+  "results": [
+    {
+      "table": "memberships",
+      "checked": 16,
+      "restricted": 0
+    },
+    {
+      "table": "sites",
+      "checked": 8,
+      "restricted": 1
+    },
+    {
+      "table": "samples",
+      "checked": 48,
+      "restricted": 48
+    },
+    {
+      "table": "handoffs",
+      "checked": 42,
+      "restricted": 42
+    },
+    {
+      "table": "events",
+      "checked": 142,
+      "restricted": 142
+    },
+    {
+      "table": "batches",
+      "checked": 12,
+      "restricted": 12
+    },
+    {
+      "table": "batch_changes",
+      "checked": 102,
+      "restricted": 102
+    },
+    {
+      "table": "batch_receipts",
+      "checked": 8,
+      "restricted": 8
+    },
+    {
+      "table": "operations",
+      "checked": 137,
+      "restricted": 0
+    }
+  ]
+}

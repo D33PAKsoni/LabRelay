@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="adapter stages related writes atomically and removes all direct business-row grants" time="0.004104" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\appwrite-adapter.test.js"/>
+	<testcase name="adapter rolls back and maps SDK conflicts to the domain conflict type" time="0.001559" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\appwrite-adapter.test.js"/>
+	<testcase name="batch receipt persists all discrepancies and transfers only one unique matching sample" time="0.060600" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="a lost acknowledgment replays the same receipt without additional transfers or records" time="0.007586" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="only the intended receiver can inspect the manifest or reconcile it" time="0.011501" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="omitted samples, altered revisions and stale batch versions cannot shrink the expected manifest" time="0.006433" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="a late transaction failure rolls back received and missing sample revisions together" time="0.008738" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="competing receipts yield one report and no partial custody change" time="0.006744" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="registration racing a receipt invalidates the manifest transaction before custody changes" time="0.008629" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="missing samples can be received later without rewriting the historical discrepancy" time="0.007091" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="an explicitly empty scan list records absence without changing any custodian" time="0.010149" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="malformed or oversized receipt inputs do not write a report" time="0.008397" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="twenty matching samples stay within the Free-plan transaction budget" time="0.009068" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\batch-receipt.test.js"/>
+	<testcase name="ten concurrent couriers produce exactly one accepted claim and keep custody with collector" time="0.021171" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="retrying after a lost response returns the original result without another event" time="0.006347" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="simultaneous identical operations are idempotent" time="0.003845" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="reusing an operation ID for a changed payload is rejected" time="0.002781" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="a second courier with a fresh version still cannot take an assigned pickup" time="0.001576" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="collector and receiver roles cannot claim a pickup" time="0.001371" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="organization isolation blocks service reads and mutations" time="0.001138" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="missing or disabled memberships cannot access a sample" time="0.001330" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="request body cannot spoof actor, organization, or role" time="0.002289" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="a complete journey requires sender offer and intended receiver acknowledgment" time="0.005369" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="courier cannot offer or receive a sample before the collector offers it" time="0.002025" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="stale offline observation cannot overwrite a newer revision" time="0.001751" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="observations preserve client capture time separately from server recorded time" time="0.001488" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="invalid observations and malformed commands do not write anything" time="0.000900" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="transaction model rolls back all earlier staged writes when a later create conflicts" time="0.002373" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="manifest reconciliation detects missing, unexpected, and duplicate scans" time="0.002227" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\domain.test.js"/>
+	<testcase name="function rejects a bare user ID without a verified JWT" time="0.002745" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\function.test.js"/>
+	<testcase name="function rejects unsupported methods before touching Appwrite" time="0.000425" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\function.test.js"/>
+	<testcase name="nearby query validates bounds and rejects organization/role injection and ambiguous inputs" time="0.005814" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\nearby.test.js"/>
+	<testcase name="great-circle distances use longitude/latitude and remain stable at poles, antimeridian and antipodes" time="0.002332" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\nearby.test.js"/>
+	<testcase name="nearby adapter passes the active organization, point and explicit meter units to spatial query" time="0.005810" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\nearby.test.js"/>
+	<testcase name="nearby results are sorted by distance with deterministic ties and defensively exclude foreign rows" time="0.020892" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\nearby.test.js"/>
+	<testcase name="foreign and missing origins both return 404 before any spatial query" time="0.001651" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\nearby.test.js"/>
+	<testcase name="overflow refuses to label a partial page as nearest-first results" time="0.000818" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\nearby.test.js"/>
+	<testcase name="empty nearby result is explicit and malformed stored locations fail without invented distances" time="0.001390" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\nearby.test.js"/>
+	<testcase name="live feed creates only an owner-readable random refresh signal" time="0.006558" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\realtime.test.js"/>
+	<testcase name="existing feed with stale grants is narrowed to its owner and revoked feed becomes server-only" time="0.001972" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\realtime.test.js"/>
+	<testcase name="notification fanout queries active organization members and never publishes business payloads" time="0.003872" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\realtime.test.js"/>
+	<testcase name="notification failure is visible to the caller and fanout cannot silently truncate" time="0.002386" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\realtime.test.js"/>
+	<testcase name="refresh coordinator coalesces bursts and schedules one follow-up for an in-flight change" time="0.014881" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\realtime.test.js"/>
+	<testcase name="periodic refresh recovers missed signals, failures do not stop later reads, and disposal stops timers" time="0.002444" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\realtime.test.js"/>
+	<testcase name="collector registration commits the sample, initial history and retry receipt together" time="0.017381" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\registration.test.js"/>
+	<testcase name="registration denies self-selected roles, another organization site, and invalid revisions" time="0.005836" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\registration.test.js"/>
+	<testcase name="a second registration cannot replace an existing sample or its custodian" time="0.015973" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\registration.test.js"/>
+	<testcase name="simultaneous registration creates one initial event and preserves the winner" time="0.012397" classname="test" file="E:\Appwrite\LabRelay\dist\tests\unit\registration.test.js"/>
+	<!-- tests 48 -->
+	<!-- suites 0 -->
+	<!-- pass 48 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 3613.7208 -->
+</testsuites>

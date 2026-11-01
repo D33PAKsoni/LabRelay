@@ -1,0 +1,80 @@
+{
+  "phase": "Nearby collection sites",
+  "at": "2026-10-28T17:12:36.865Z",
+  "projectId": "6ae20a1500011bd3e5da",
+  "databaseId": "labrelay_spike",
+  "function": {
+    "id": "labrelay_api",
+    "deploymentId": "6ae22bb1518f572b571d",
+    "runtime": "node-22",
+    "execute": [
+      "users"
+    ],
+    "scopes": [
+      "rows.read",
+      "rows.write"
+    ],
+    "status": "ready"
+  },
+  "tables": [
+    {
+      "id": "memberships",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "sites",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "samples",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "handoffs",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "events",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "batches",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "batch_changes",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "batch_receipts",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "operations",
+      "rowSecurity": true,
+      "tablePermissions": []
+    }
+  ],
+  "suites": {
+    "unit": 42,
+    "productBrowser": 15,
+    "cloudBrowser": 3,
+    "nearbyCloud": 4,
+    "hostedNearby": 4,
+    "hostedFunction": 4,
+    "hostedBatch": 5
+  },
+  "totalPhaseChecks": 77,
+  "checkedTestUsers": 16,
+  "remainingTestSessions": 0,
+  "frontendDeployment": "Local production build; Appwrite Sites frontend publication remains subsequent work.",
+  "functionArchiveSha256": "f1cec386b5401dd0aff27c77ab9b84cd6f530663e9c047bd09a7e54eba701541"
+}

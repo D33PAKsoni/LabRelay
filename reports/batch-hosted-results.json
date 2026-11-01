@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-28T20:03:40.558Z",
+  "scope": "Hosted Appwrite Function with real JWTs and TablesDB transactions.",
+  "batchId": "rc_e60f2b1516",
+  "results": [
+    {
+      "check": "manifest is server-derived and receiver-authorized",
+      "status": "pass"
+    },
+    {
+      "check": "competing receipts commit one discrepancy report and preserve missing custody",
+      "status": "pass"
+    },
+    {
+      "check": "retry returns the original receipt and cross-organization reads are denied",
+      "status": "pass"
+    },
+    {
+      "check": "a stale receiving screen cannot overwrite an intervening observation",
+      "status": "pass"
+    },
+    {
+      "check": "a later matching receipt preserves the original missing-sample snapshot",
+      "status": "pass"
+    }
+  ]
+}

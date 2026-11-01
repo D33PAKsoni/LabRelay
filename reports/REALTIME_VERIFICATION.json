@@ -1,0 +1,91 @@
+{
+  "phase": "Authorized Realtime",
+  "at": "2026-10-28T20:19:41.031Z",
+  "projectId": "6ae20a1500011bd3e5da",
+  "databaseId": "labrelay_spike",
+  "function": {
+    "id": "labrelay_api",
+    "deploymentId": "6ae24d462dc114127563",
+    "runtime": "node-22",
+    "execute": [
+      "users"
+    ],
+    "scopes": [
+      "rows.read",
+      "rows.write"
+    ],
+    "status": "ready"
+  },
+  "businessRowsChecked": 865,
+  "signalRowsChecked": 16,
+  "allBusinessRowsPrivate": true,
+  "signalRowsOwnerOnly": true,
+  "tables": [
+    {
+      "id": "memberships",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "sites",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "samples",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "handoffs",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "events",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "batches",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "batch_changes",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "batch_receipts",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "live_updates",
+      "rowSecurity": true,
+      "tablePermissions": []
+    },
+    {
+      "id": "operations",
+      "rowSecurity": true,
+      "tablePermissions": []
+    }
+  ],
+  "suites": {
+    "unit": 48,
+    "productBrowser": 20,
+    "cloudBrowser": 6,
+    "originalCloud": 7,
+    "productCloud": 4,
+    "batchCloud": 5,
+    "hostedNearby": 4,
+    "hostedFunction": 4,
+    "hostedBatch": 5
+  },
+  "totalPhaseChecks": 103,
+  "checkedTestUsers": 16,
+  "remainingTestSessions": 0,
+  "frontendDeployment": "Local production build; Appwrite Sites frontend publication remains subsequent work.",
+  "functionArchiveSha256": "56ff8c6e928c6184c12b3719046571e3aaa6df912ff5bc062cdd23251366e455"
+}

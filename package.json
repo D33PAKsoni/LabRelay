@@ -1,0 +1,54 @@
+{
+  "name": "labrelay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "LabRelay day-one feasibility experiment: accountable field-to-lab sample handoffs.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "tsc && esbuild tests/browser/harness.ts --bundle --format=esm --outfile=dist/browser/harness.js",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test --test-reporter=spec --test-reporter-destination=stdout --test-reporter=junit --test-reporter-destination=reports/unit-results.xml dist/tests/unit/*.test.js",
+    "test:browser": "npm run build && playwright test",
+    "check": "npm run test && npm run test:browser",
+    "appwrite:doctor": "npm run build && node --env-file-if-exists=.env dist/scripts/doctor.js",
+    "appwrite:bootstrap": "npm run build && node --env-file-if-exists=.env dist/scripts/bootstrap.js",
+    "test:live": "npm run build && node --env-file-if-exists=.env dist/scripts/live-check.js",
+    "dev": "vite",
+    "build:web": "tsc --project web/tsconfig.json && vite build",
+    "typecheck:web": "tsc --project web/tsconfig.json",
+    "build:function": "npm run build && node scripts/package-function.mjs",
+    "deploy:function": "npm run build:function && node --env-file-if-exists=.env scripts/deploy-function.mjs",
+    "test:product": "npm run build && playwright test --config=playwright.product.config.mjs",
+    "test:product:live": "npm run build && node --env-file-if-exists=.env dist/scripts/product-live-check.js",
+    "test:hosted": "npm run build && node --env-file-if-exists=.env dist/scripts/product-live-check.js --hosted",
+    "demo:accounts": "npm run build && node --env-file-if-exists=.env dist/scripts/seed-demo.js",
+    "test:cloud-ui": "npm run build && esbuild tests/browser/live-harness.ts --bundle --format=esm --outfile=dist/browser/live-harness.js && playwright test --config=playwright.cloud.config.mjs",
+    "test:batch:live": "npm run build && node --env-file-if-exists=.env dist/scripts/batch-live-check.js",
+    "test:batch:hosted": "npm run build && node --env-file-if-exists=.env dist/scripts/batch-live-check.js --hosted",
+    "test:nearby:live": "npm run build && node --env-file-if-exists=.env dist/scripts/nearby-live-check.js",
+    "test:nearby:hosted": "npm run build && node --env-file-if-exists=.env dist/scripts/nearby-live-check.js --hosted",
+    "appwrite:restrict-rows": "npm run build && node --env-file-if-exists=.env dist/scripts/restrict-row-access.js",
+    "deploy:site": "npm run build:web && node --env-file-if-exists=.env scripts/deploy-site.mjs",
+    "test:site": "playwright test --config=playwright.site.config.mjs"
+  },
+  "dependencies": {
+    "appwrite": "^29.2.0",
+    "dexie": "^4.2.1",
+    "lucide-react": "^1.63.0",
+    "node-appwrite": "31.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-28T19:30:26.181Z",
+  "projectId": "6ae20a1500011bd3e5da",
+  "functionId": "labrelay_api",
+  "deploymentId": "6ae24d462dc114127563",
+  "status": "ready",
+  "runtime": "node-22",
+  "execute": [
+    "users"
+  ],
+  "scopes": [
+    "rows.read",
+    "rows.write"
+  ]
+}

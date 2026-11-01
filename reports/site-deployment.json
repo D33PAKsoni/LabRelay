@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-29T12:18:50.143Z",
+  "projectId": "6ae20a1500011bd3e5da",
+  "siteId": "labrelay-web",
+  "deploymentId": "6ae33994c83334191154",
+  "status": "active",
+  "archiveSha256": "6f2d2c0f73147207da1936bda16048df41a9bef966e47ef5038df65362877c9a",
+  "hostname": "labrelay.appwrite.network",
+  "verification": "HTTPS assets, production sign-in, two-user Realtime, sign-out socket cleanup and zero remaining test sessions verified.",
+  "url": "https://labrelay.appwrite.network",
+  "domainRuleId": "ed27d95ea7c98535a689e2d9982b68af",
+  "domainStatus": "verified",
+  "verifiedAt": "2026-10-29T16:53:46.353Z",
+  "checkedTestUsers": 16,
+  "remainingTestSessions": 0,
+  "browserChecks": 1
+}

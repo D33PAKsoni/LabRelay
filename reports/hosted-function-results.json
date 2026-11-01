@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-28T20:02:49.566Z",
+  "scope": "Hosted Appwrite Function with real user JWT execution and TablesDB.",
+  "sampleId": "lr_product_29ef4be7d3e8",
+  "results": [
+    {
+      "check": "workspace reads resolve membership and isolate organizations",
+      "status": "pass"
+    },
+    {
+      "check": "registration is collector-only and retries return one initial event",
+      "status": "pass"
+    },
+    {
+      "check": "product routes complete both handoffs and return a six-event custody history",
+      "status": "pass"
+    },
+    {
+      "check": "read routes require authentication and unknown routes stay closed",
+      "status": "pass"
+    }
+  ]
+}
